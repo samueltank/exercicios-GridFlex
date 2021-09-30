@@ -1,0 +1,36 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+
+header
+{
+    background-color: coral;
+    display: grid;
+    place-content: center;
+}
+
+main
+{
+    background-color: rgb(183, 0, 255);
+    display: grid;
+    place-content: center;
+}
+
+footer
+{
+    display: grid;
+    background-color: crimson;
+    place-content: center;
+}
+

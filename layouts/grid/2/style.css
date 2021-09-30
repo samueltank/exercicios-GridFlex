@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: plum;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+}
+
+.conteiner-grid
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav article article aside"
+    "footer footer footer footer"
+    ;
+}
+
+header
+{
+    background-color: brown;
+    grid-area: header;
+}
+
+nav
+{
+    background-color: darkgrey;
+    grid-area: nav;
+}
+
+article
+{
+    background-color: chartreuse;
+    grid-area: article;
+}
+
+aside
+{
+    background-color: darkcyan;
+    grid-area: aside;
+}
+
+footer
+{
+    background-color: purple;
+    grid-area: footer;
+}
+
+
