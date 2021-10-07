@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+.flex-container
+{
+    /* background-color: orchid; */
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    /* 
+    justify-content: center + safe; 
+    align-items: center; 
+    */
+}
+
+.flex-container-row
+{
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 80%;
+    height: 100%;
+    /* 
+    testes:
+    justify-content: center;
+    align-items: center; 
+    */
+}
+
+/* classe de todos os itens */
+.item
+{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+/* item nav */
+.item-a 
+{
+    background-color: darkblue;
+    flex-grow: 2;
+}
+
+/* item header */
+.item-b 
+{
+    background-color: chartreuse;
+}
+
+/* item main */
+.item-c
+{
+    background-color: darkgray;
+    flex-grow: 5;
+}
+
+/* item footer */
+.item-d
+{
+    background-color: darkred;
+}
