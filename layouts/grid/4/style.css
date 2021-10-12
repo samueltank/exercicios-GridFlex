@@ -1,0 +1,62 @@
+*
+{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+
+body
+{
+   height: 100vh;
+   width: 100vw;
+}
+
+.item
+{
+   display: grid;
+   place-content: center;
+}
+
+.item-header
+{
+   background-color: cadetblue;
+   grid-area: header;
+}
+
+.item-nav
+{
+   background-color: coral;
+   grid-area: nav;
+}
+
+.item-article
+{
+   background-color: aquamarine;
+   grid-area: article;
+}
+
+.item-aside
+{
+   background-color: crimson;
+   grid-area: aside;
+}
+
+.item-footer
+{
+   background-color: cyan;
+   grid-area: footer;
+}
+
+.container-grid
+{
+   display: grid;
+   height: 100%;
+   width: 100%;
+   grid-template-rows: 2fr 9fr 2fr;
+   grid-template-columns: 2fr 9fr 2fr;
+   grid-template-areas: 
+   "nav header header"
+   "nav article aside"
+   "nav footer footer"
+   ;
+}
