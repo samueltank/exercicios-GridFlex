@@ -11,31 +11,26 @@ body
     width: 100vw;
 }
 
-.item-a
+/* usar header, main, footer e nav */
+.item-header
 {
     grid-area: header;
     background-color: aquamarine;
 }
 
-.item-b
+.item-nav
 {
     grid-area: nav;
-    background-color: azure;
+    background-color: bisque;
 }
 
-.item-c
+.item-main
 {
-    grid-area: article;
+    grid-area: main;
     background-color: blueviolet;
 }
 
-.item-d
-{
-    grid-area: aside;
-    background-color: brown;
-}
-
-.item-e
+.item-footer
 {
     grid-area: footer;
     background-color: chartreuse;
@@ -47,11 +42,11 @@ body
     height: 100%;
     width: 100%;
     grid-template-rows: 1fr 6fr 1fr;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
     grid-template-areas: 
-        "header header header header"
-        "nav article article aside"
-        "footer footer footer footer"
+        "nav header header header"
+        "nav main main main"
+        "nav footer footer footer"
     ;
 }
 

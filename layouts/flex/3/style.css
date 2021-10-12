@@ -45,33 +45,34 @@ body
 .item
 {
     display: flex;
-    flex-grow: 1;
     justify-content: center;
     align-items: center;
 }
 
 /* item nav */
-.item-a 
+.item-nav
 {
     background-color: darkblue;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 /* item header */
-.item-b 
+.item-header
 {
     background-color: chartreuse;
+    flex-grow: 1;
 }
 
 /* item main */
-.item-c
+.item-main
 {
     background-color: darkgray;
-    flex-grow: 5;
+    flex-grow: 7;
 }
 
 /* item footer */
-.item-d
+.item-footer
 {
     background-color: darkred;
+    flex-grow: 1;
 }
