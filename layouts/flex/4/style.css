@@ -12,3 +12,66 @@ body
    display: flex;
 }
 
+.container-flex-nav
+{
+   background-color: bisque;
+   display: flex;
+   height: 100%;
+   width: 100%;
+   flex-direction: row;
+}
+
+.item-nav
+{
+   background-color: aqua;
+   flex-grow: 1;
+}
+
+.container-flex-header-footer
+{
+   display: flex;
+   flex-direction: column;
+   flex-grow: 5;
+}
+
+.item-header
+{
+   background-color: blueviolet;
+   display: flex;
+   flex-grow: 1;
+}
+
+.item-footer
+{
+   background-color: cadetblue;
+   display: flex;
+   flex-grow: 1;
+}
+
+.container-flex-article-aside
+{
+   display: flex;
+   flex-direction: row;
+   flex-grow: 6;
+}
+
+.item-article
+{
+   background-color: chartreuse;
+   display: flex;
+   flex-grow: 5;
+}
+
+.item-aside
+{
+   background-color: coral;
+   display: flex;
+   flex-grow: 1;
+}
+
+.item 
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
